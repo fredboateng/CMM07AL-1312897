@@ -9,4 +9,5 @@ echo"Wale is bad boy he is really helpful";
  *
  * CMM007ALDB-1312897
 */
+include("connection.php");
 ?>
