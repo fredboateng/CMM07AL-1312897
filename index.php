@@ -1,5 +1,5 @@
 <?php
-echo"Wale is bad boy he is really helpful";
+echo"Wale is bad boy he is really helpful"."<br>";
 /*
  *ap-cdbr-azure-east-c.cloudapp.net :severname
  *
