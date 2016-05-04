@@ -19,13 +19,12 @@
         $result = $db->query($sql);
         $row = $result->fetch_array();
         $category = $row['category'];
-        echo "<p>Keeping track of all the pesky little bugs<br>
-            You are in the {$category} category
+        echo "<p>Here are my {$category} category post
             </p>";
     }
     else{
-        echo"<p>Keeping track of all the pesky little bugs<br>
-            You are looking all the bugs in our database
+        echo"<p>
+                Here are all my blog posts
             </p>";
     }
     ?>
