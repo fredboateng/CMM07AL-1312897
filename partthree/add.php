@@ -48,9 +48,9 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
             <label>Category
                 <select name=\"category\" class=\"field-select\" required>
                     <option value=\"\" selected disabled>Select</option>
-                    <option value=\"Work\">Android</option>
-                    <option value=\"University\">iOS</option>
-                    <option value=\"Family\">Windows</option>
+                    <option value=\"Work\">Work</option>
+                    <option value=\"University\">University</option>
+                    <option value=\"Family\">Family</option>
                 </select>
             </label>
         </li>
