@@ -59,7 +59,7 @@ while($row = $result->fetch_array())
     $summary = $row['entrySummary'];
     $submitter = $row['submitter'];
     echo "<article>
-                  <p>{$title} by {$submittermitter}</p>
+                  <p>{$title} by {$submitter}</p>
                   <p>{$category}</p>
                   <p>{$summary}</p>
                   </article>";
