@@ -13,6 +13,7 @@
     <h1>my Blog</h1>
     <p>because the internet needs to know what I think</p>
     <?php
+    include("connection.php");
     if(isset($_GET['category'])) {
         $category = $_GET['category'];
         $sql = "SELECT * FROM blogView WHERE category = '$category'";
