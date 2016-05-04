@@ -28,7 +28,7 @@
 if($_SERVER['REQUEST_METHOD']==='GET'){
     echo
 
-    "<form action=\"addblog.php\" method=\"post\">
+    "<form action=\"add.php\" method=\"post\">
 
                     <ul class=\"form-style-1\">
 
