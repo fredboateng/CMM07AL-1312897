@@ -1,0 +1,91 @@
+/*@import "templatecolours.css";*/
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    float: left;
+}
+nav>ul>li a{
+    display: block;
+    direction: ltr;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+nav>ul>li a:hover{
+    color: #4691A4;
+    background-color: #782A7E;
+}
+#bloglogo{
+    max-width:32%;
+}
+#banner{
+    max-width: 960px;
+}
+#chris{
+    max-width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+h1{
+    font-family:'Roboto',sans-serif;
+    font-weight: 300;
+}
+p,h2,h3,h4,h5,a{
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+}
+h3,h4,h5{
+    font-family:'Roboto',sans-serif;
+    font-weight: 700;
+}
+
+aside p,h3,h4{
+    color: black;
+}
+
+
+aside {
+    padding-right: 0px;!important;
+    padding-top: -5px;!important;
+}
+main{
+    padding-right: 0px;!important;
+}
+
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    font-size: 13px;
+}
+footer>p{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+footer{
+    background-color: #363636;
+}
